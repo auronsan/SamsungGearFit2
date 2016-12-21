@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Mitrais</title>
+	<link rel="stylesheet" href="lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="lib/tau/wearable/theme/default/tau.circle.min.css">
+	<!-- load theme file for your application -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:#7a42f4">
+
+	<div class="ui-page ui-page-active" id="main">
+		<header class="ui-header">
+			<h2 class="ui-title">Mitrais GearFit2</h2>
+		</header>
+		<div class="ui-content content-padding">
+		
+			<p>Mitrais GearFit2</p>
+			<img src="mitlogo.png">
+			<input id="test2" value=0>
+			<br>
+	    <div><button id="send1">send data ke firebase</button></div>
+		</div>
+	</div>
+	<script src="jquery-2.1.1.min"></script>
+	<script src="app.js"></script>
+	
+	 <script src="firebase.js"></script>
+	 
+	
+  <script src="firebase-app.js"></script>
+  <script src="firebase-database.js"></script>
+  
+	<script src="lowBatteryCheck.js"></script>
+	
+</body>
+</html>

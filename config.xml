@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/TAUBasic" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+<tizen:allow-navigation>https://ihealth-mitrais.firebaseio.com/measure.json</tizen:allow-navigation>
+<tizen:allow-navigation>https://unpkg.com/leaflet@1.0.2/dist/leaflet.js</tizen:allow-navigation>
+    <tizen:application id="Xs0xzwWWZj.TAUBasic" package="Xs0xzwWWZj" required_version="2.3.2"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="mitlogo.png"/>
+    <name>Mitrais Geatfit</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
